@@ -1,0 +1,37 @@
+Extracted Data description:
+ 
+Details of Attributes:
+
+1) name:       id of the patients.
+
+2) Jitter(%):  local Jitter is the average absolute difference between consecutive periods, divided by the average period. It is expressed as a percentage.
+
+3) Jitter(Abs): is the cycle-to-cycle variation of fundamental frequency, i.e. the average absolute difference between        consecutive periods.
+
+4) Jitter:RAP:  is defined as the Relative Average Perturbation, the average absolute difference between a period and the average of it and its two neighbors, divided by the average period. It is expressed as a percentage.
+
+5) Jitter:PPQ:  is the five-point Period Perturbation Quotient, computed as the average of it and its four closest neighbors, divided by the average period. It is also expressed as a percentage
+
+6) Jitter:DDP:  Average absolute difference of differences between jitter cycles
+
+7) Shimmer:     is defined as the average absolute difference between the amplitudes of consecutive periods, divided by the average amplitude, expressed as a percentage 
+
+8) Shimmer(dB): is expressed as the variability of the peak-to-peak amplitude in decibels, i.e. the average absolute base-10 logarithm of the difference between the amplitude of consecutive periods, multiplied by 20
+
+9) Shimmer:APQ3: is the three-point Amplitude Perturbation Quotient, the average absolute difference between the amplitude of a period and the average of amplitudes of its neighbors, divided by the average amplitude. It is expressed in percentage
+
+10) Shimmer:APQ5: is defined as the five-point Amplitude Perturbation Quotient, the average absolute difference between the amplitude of a period and the average of the amplitudes of its four closest neighbors, divided by the average amplitude. It is also expressed in percentage 
+
+11) Shimmer:DDA: Average absolute differences between the amplitudes of consecutive periods
+
+12) NHR:         Noise-to-harmonics ratio
+
+13) HNR:         Harmonics-to-noise ratio
+
+14) RPDE:        Recurrence period density entropy (RPDE) is a method for determining the periodicity, or repetitiveness of a signal.
+
+15) DFA:         Detrended Fluctuation Analysis is an interesting method for scaling the long-term autocorrelation of non-stationary signals. It quantifies the complexity of signals using the fractal property i.e Signal fractal scaling exponent of detrended fluctuation analysis
+
+16) PPE:         Pitch period entropy, pitch period entropy (PPE), a robust measure sensitive to observed changes in speech specific to PD.
+
+17) status:      Health status of the subject (one) - Parkinson's, (zero) - healthy
