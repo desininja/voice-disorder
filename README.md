@@ -11,6 +11,11 @@ In this we will deploy different ML algorithms to get the maximum accuracy on da
 
 
 
+## File "code for data extraction" extracts the data from different files/sources that are available on internet.
+
+
+
+
 
 
 
