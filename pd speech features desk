@@ -1,0 +1,134 @@
+Data file 3: pd_speech_features
+
+Data description:
+
+Context
+This dataset is collected from UCI Machine Learning Repository through the following link: https://archive.ics.uci.edu/ml/datasets/Parkinson%27s+Disease+Classification#
+
+Data Set Information:
+
+The data used in this study were gathered from 188 patients with PD (107 men and 81 women) with ages ranging from 33 to 87 (65.1±10.9) at the Department of Neurology in Cerrahpaşa Faculty of Medicine, Istanbul University. The control group consists of 64 healthy individuals (23 men and 41 women) with ages varying between 41 and 82 (61.1±8.9). During the data collection process, the microphone is set to 44.1 KHz and following the physician’s examination, the sustained phonation of the vowel /a/ was collected from each subject with three repetitions.
+
+Attribute Information:
+
+Various speech signal processing algorithms including Time Frequency Features, Mel Frequency Cepstral Coefficients (MFCCs), Wavelet Transform based Features, Vocal Fold Features and TWQT features have been applied to the speech recordings of Parkinson's Disease (PD) patients to extract clinically useful information for PD assessment.
+
+Citation Request:
+
+If you use this dataset, please cite: Sakar, C.O., Serbes, G., Gunduz, A., Tunc, H.C., Nizam, H., Sakar, B.E., Tutuncu, M., Aydin, T., Isenkul, M.E. and Apaydin, H., 2018. A comparative analysis of speech signal processing algorithms for Parkinson’s disease classification and the use of the tunable Q-factor wavelet transform. Applied Soft Computing, DOI: [Web Link] https://doi.org/10.1016/j.asoc.2018.10.022
+
+
+
+
+Data Set Characteristics: Multivariate Number of Instances: 756 Area: Computer Attribute Characteristics: Integer, Real Number of Attributes: 754 Date Donated: 2018-11-05 Associated Tasks: Classification Missing Values?: N/A Number of Web Hits: 34405
+
+Columns Description:
+
+Baseline Features: Col_3 to Col_23 Intensity Parameters: Col_24 to Col_26 Formant Frequencies: Col_27 to Col_30 Bandwidth Parameters: Col_31 to Col_34 Vocal Fold: Col_35 to Col_56 MFCC: Col_57 to Col_140 Wavelet Features: Col_141 to Col_322 TQWT Features: Col_323 to Col_754 Class: Col_755
+
+
+
+
+
+
+idPerson serial number
+genderPerson gender
+PPEBaseline Features
+DFABaseline Features
+RPDEBaseline Features
+numPulsesBaseline Features
+numPeriodsPulsesBaseline Features
+meanPeriodPulsesBaseline Features
+stdDevPeriodPulsesBaseline Features
+locPctJitterBaseline Features
+locAbsJitter
+rapJitter
+ppq5Jitter
+ddpJitter
+locShimmer
+locDbShimmer
+apq3Shimmer
+apq5Shimmer
+apq11Shimmer
+ddaShimmer
+meanAutoCorrHarmonicity
+meanNoiseToHarmHarmonicity
+meanHarmToNoiseHarmonicity
+minIntensityIntensity Parameters
+maxIntensityIntensity Parameters
+meanIntensityIntensity Parameters
+f1Formant Frequencies
+f2Formant Frequencies
+f3Formant Frequencies
+f4Formant Frequencies
+b1Bandwidth Parameters
+b2Bandwidth Parameters
+b3Bandwidth Parameters
+b4Bandwidth Parameters
+GQ_prc5_95Vocal Fold
+GQ_std_cycle_openVocal Fold
+GQ_std_cycle_closedVocal Fold
+GNE_meanVocal Fold
+GNE_stdVocal Fold
+GNE_SNR_TKEO
+GNE_SNR_SEO
+GNE_NSR_TKEO
+GNE_NSR_SEO
+VFER_mean
+VFER_std
+VFER_entropy
+VFER_SNR_TKEO
+VFER_SNR_SEO
+VFER_NSR_TKEO
+VFER_NSR_SEO
+IMF_SNR_SEO
+IMF_SNR_TKEO
+IMF_SNR_entropy
+IMF_NSR_SEO
+IMF_NSR_TKEO
+IMF_NSR_entropy
+mean_Log_energyMFCC
+mean_MFCC_0th_coefMFCC
+mean_MFCC_1st_coefMFCC
+mean_MFCC_2nd_coefMFCC
+mean_MFCC_3rd_coefMFCC
+mean_MFCC_4th_coef
+mean_MFCC_5th_coef
+mean_MFCC_6th_coef
+mean_MFCC_7th_coef
+mean_MFCC_8th_coef
+mean_MFCC_9th_coef
+mean_MFCC_10th_coef
+mean_MFCC_11th_coef
+mean_MFCC_12th_coef
+mean_delta_log_energy
+mean_0th_delta
+mean_1st_delta
+mean_2nd_delta
+mean_3rd_delta
+mean_4th_delta
+mean_5th_delta
+mean_6th_delta
+mean_7th_delta
+mean_8th_delta
+mean_9th_delta
+mean_10th_delta
+mean_11th_delta
+mean_12th_delta
+mean_delta_delta_log_energy
+mean_delta_delta_0th
+mean_1st_delta_delta
+mean_2nd_delta_delta
+mean_3rd_delta_delta
+mean_4th_delta_delta
+mean_5th_delta_delta
+mean_6th_delta_delta
+mean_7th_delta_delta
+mean_8th_delta_delta
+mean_9th_delta_delta
+mean_10th_delta_delta
+mean_11th_delta_delta
+mean_12th_delta_delta
+std_Log_energy
+std_MFCC_0th_coef
+
